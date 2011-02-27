@@ -1,0 +1,13 @@
+Source: desktop-droid
+Section: kde
+Priority: optional
+Maintainer: Javier Uruen Val <juruen@warp.es>
+Build-Depends: debhelper, python, pyqt4-dev-tools
+Standards-Version: 3.8.1
+Homepage: https://github.com/foolano/desktop-droid
+
+Package: desktop-droid
+Architecture: all
+Depends: python (>= 2.5), python-qt4, ${misc:Depends}, ${python:Depends}
+Description:desktop-droid is a set of applications that allow an android phone
+    to send events to your desktop computer.

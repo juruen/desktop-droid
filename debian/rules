@@ -1,0 +1,31 @@
+#! /usr/bin/make -f
+
+build:
+#	pass
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean
+
+binary-arch:
+#	pass
+
+binary-indep:
+	dh_testdir
+	dh_testroot
+	dh_installdirs
+	env DEBIAN_PREFIX=$(CURDIR)/debian/desktop-droid ./setup.sh install
+	dh_installchangelogs
+	dh_installdocs
+	dh_link
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-arch binary-indep
+
+.PHONY: build clean binary binary-arch binary-indep

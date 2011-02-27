@@ -1,0 +1,19 @@
+Debianized by Javier Uruen Val <juruen@warp.es>   2011-02-27
+
+The source of desktop-droid was downloaded from:
+
+  https://github.com/foolano/desktop-droid
+
+Files: *
+Copyright: Copyright (c) 20011 Warp Networks, S.L
+License: GPL-2 or later
+ The full text of the GPL is distributed as in
+ /usr/share/common-licenses/GPL-2 on Debian systems.
+
+File: websocket.py
+Copyright: Copyright (C) 2010 Hiroki Ohtani(liris)
+License: GPL-2 or later
+ The full text of the GPL is distributed as in
+ /usr/share/common-licenses/GPL-2 on Debian systems.
+
+
