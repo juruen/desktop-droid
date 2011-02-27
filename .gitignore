@@ -1,0 +1,10 @@
+*.pyc
+
+desktop_droid_qrc.py
+
+/desktop_droid/ui/*.py
+
+/debian/files
+/debian/minirok
+/debian/*.substvars
+/debian/*.debhelper

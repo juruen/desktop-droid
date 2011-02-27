@@ -1,0 +1,25 @@
+Desktop-droid
+=============
+
+desktop-droid is a set of applications that allow an android phone
+to send events to your desktop computer.
+
+It is composed of three pieces of software:
+
+1. Android app
+
+This application needs to be installed on your android phone in order to
+capture events and send them to the server.
+
+2. Server app
+
+This application needs to be deployed on the Internet to allow your android
+and desktop to talk to each other.
+
+Note that there is a default server already deployed that you may use instead of
+setting up one for yourself.
+
+3. Desktop app
+
+This application is installed on your desktop and talks to the server. It will
+wait until an event happens to be displayed.
